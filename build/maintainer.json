@@ -2194,6 +2194,12 @@
     "/informs/:category?": [
         "Fatpandac"
     ],
+    "/iqiyi/album/:id": [
+        "TonyRL"
+    ],
+    "/iqiyi/user/video/:uid": [
+        "talengu"
+    ],
     "/iresearch/report": [
         "brilon",
         "Fatpandac"
@@ -4431,6 +4437,12 @@
     "/vmware/flings": [
         "nczitzk"
     ],
+    "/vocus/publication/:id": [
+        "Maecenas"
+    ],
+    "/vocus/user/:id": [
+        "LogicJake"
+    ],
     "/vom/featured/:lang?": [
         "TonyRL"
     ],
@@ -5035,8 +5047,6 @@
     "/geektime/column/:cid": [],
     "/geektime/news": [],
     "/qdaily/:type/:id": [],
-    "/iqiyi/dongman/:id": [],
-    "/iqiyi/user/video/:uid": [],
     "/infzm/:id": [],
     "/dribbble/popular/:timeframe?": [],
     "/dribbble/user/:name": [],
@@ -5458,8 +5468,6 @@
     "/bupt/portal": [],
     "/bupt/news": [],
     "/bupt/funbox": [],
-    "/vocus/publication/:id": [],
-    "/vocus/user/:id": [],
     "/1point3acres/blog/:category?": [],
     "/1point3acres/user/:id/threads": [],
     "/1point3acres/user/:id/posts": [],
