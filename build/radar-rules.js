@@ -1006,7 +1006,11 @@
                     if (uid) {
                         return `/baidu/tieba/user/${uid}`;
                     }
-                } } ] },
+                } } ],
+    top:[ { title:"热搜榜单",
+        docs:"https://docs.rsshub.app/other.html#bai-du-re-sou",
+        source:[ "/board" ],
+        target:(_, url) => `/baidu/top/${new URL(url).searchParams.get('tab')}` } ] },
   "baijingapp.com":{ _name:"白鲸出海",
     ".":[ { title:"最新",
         docs:"https://docs.rsshub.app/new-media.html#bai-jing-chu-hai",
@@ -3900,10 +3904,10 @@
           "/" ],
         target:(params, url) => `/guancha/topic/${new URL(url).searchParams.get('topic_id')}/${new URL(url).searchParams.get('order')}` } ] },
   "guandian.cn":{ _name:"观点网",
-    www:{ title:"资讯",
-      docs:"https://docs.rsshub.app/new-media.html#guan-dian-wang-zi-xun",
-      source:[ "/:category" ],
-      target:"/guandian/:category" } },
+    www:[ { title:"资讯",
+        docs:"https://docs.rsshub.app/new-media.html#guan-dian-wang-zi-xun",
+        source:[ "/:category" ],
+        target:"/guandian/:category" } ] },
   "guangdiu.com":{ _name:"逛丢",
     ".":[ { title:"折扣",
         docs:"https://docs.rsshub.app/shopping.html#guang-diu",
